@@ -121,3 +121,53 @@ nav li:hover:nth-child(-n + 2) a {
   width: 450px;
   height: 550px;
 }
+
+/* main styles */
+main {
+  margin-top: 100px;
+}
+
+.main-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.main-about-me {
+  width: 60%;
+  margin: auto;
+  background-color: #fff1e7;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.main-description {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.5rem;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+.main-about-items {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.main-about-items ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-about-items li {
+  font-size: 14px;
+  margin-right: 10px;
+  list-style: none;
+  text-align: center;
+}
+
+.main-about-items ul li p{
+    color: #757575;
+    margin-bottom: 5px;
+}
