@@ -11,7 +11,7 @@
   background-color: #fd6e0a;
   font-size: 16px;
   border-radius: 5px;
-  padding: 12px 28px;
+  padding: 8px 12px;
   border: none;
   color: white;
   font-weight: 700;
@@ -22,7 +22,7 @@
   color: #fd6e0a;
   font-size: 16px;
   border-radius: 5px;
-  padding: 12px 28px;
+  padding: 8px 12px;
   border: 1px solid #fd6e0a;
   font-weight: 700;
 }
@@ -244,3 +244,65 @@ main {
 .skills:hover p{
     color: black;
 }
+
+/* footer styles */
+footer {
+    background-color: #fff1e7;
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.footer-left {
+    width: 30%;
+    margin: auto 0 auto auto;
+    padding: 20px;
+}
+.footer-left p{
+    font-size: 14px;
+    font-weight: 100;
+    color: #757575;
+    margin-top: 10px;
+    line-height: 1.3rem;
+}
+
+.footer-left i{
+    background-color: #fd6e0a;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer-left i:hover {
+    background-color: #fd7b1e;
+    color: white;
+}
+
+.footer-right {
+    width: 30%;
+    margin: auto auto auto 0;
+}
+
+.footer-right .input, textarea {
+    margin: 10px 0;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none
+}
+
+textarea {
+    border: none;
+}
+
+.footer-right input, textarea:focus{
+    outline-color: #fd6e0a;
+}
+
