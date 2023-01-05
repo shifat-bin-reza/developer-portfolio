@@ -17,6 +17,14 @@
   font-weight: 700;
 }
 
+.btn-primary i {
+    margin-right: 3px
+}
+
+.btn-secondary i {
+    margin-right: 2px
+}
+
 .btn-secondary {
   background-color: white;
   color: #fd6e0a;
@@ -25,6 +33,7 @@
   padding: 8px 12px;
   border: 1px solid #fd6e0a;
   font-weight: 700;
+  margin-left: 5px;
 }
 
 .btn-primary:hover {
