@@ -254,6 +254,60 @@ main {
     color: black;
 }
 
+.main-summery {
+  width: 70%;
+  margin: 100px auto 0 auto;
+}
+
+.main-summery-title {
+  text-align: center;
+}
+
+.main-summery h3,h4 {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.main-summery h2 {
+  color: #302525;
+}
+
+.main-summery h3 {
+  color: #302525;
+}
+
+.main-summery h4 {
+  color: #757575;
+}
+
+.main-summery p {
+  color: #757575;
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.4rem;
+}
+
+.summery-group {
+  margin-top: 50px;
+}
+
+.summery {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.education {
+  padding: 10px;
+}
+
+.experience {
+  padding: 10px;
+}
+
+hr {
+  margin: 20px 0;
+}
+
 /* footer styles */
 footer {
     background-color: #fff1e7;
