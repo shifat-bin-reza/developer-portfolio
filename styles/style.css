@@ -106,7 +106,7 @@ nav li:hover:nth-child(-n + 2) a {
 }
 
 .banner-left {
-  width: 40%;
+  width: 50%;
 }
 
 .banner-sub-title {
@@ -128,7 +128,7 @@ nav li:hover:nth-child(-n + 2) a {
 }
 
 .banner-right {
-  width: 60%;
+  width: 55%;
   display: flex;
   justify-content: flex-end;
   background-image: url("../images/header_bg.png");
