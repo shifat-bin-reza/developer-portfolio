@@ -4,6 +4,9 @@
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  width: 100%;
+}
 
 .text-primary {
   color: #fd6e0a;
