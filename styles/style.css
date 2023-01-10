@@ -50,6 +50,12 @@ body {
   color: white;
 }
 
+.menu-bar {
+  position: absolute;
+  right: 0;
+  visibility: hidden;
+}
+
 /* header and navigation styles */
 header {
   width: 100%;
@@ -57,7 +63,7 @@ header {
   background-color: #fff1e7;
   background-repeat: no-repeat, no-repeat;
   background-position: bottom left 50px;
-  background-size: 100px 100%;
+  background-size: 6vw 100%;
   padding: 10px 10px 0 10px;
 }
 /* 700px 425px */
@@ -65,7 +71,15 @@ nav {
   display: flex;
   justify-content: space-between;
   margin: 0px 200px 20px 200px;
+  position: relative;
 }
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
 .nav-title {
   font-weight: 800;
   font-size: 45px;
@@ -134,13 +148,12 @@ nav li:hover:nth-child(-n + 2) a {
   background-image: url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom center;
-  background-size: 100% 400px;
+  background-size: 100% 75%;
 }
 
 .banner-image {
-  width: 480px;
-  height: 550px;
-  /* left: 100px; */
+  width: 75%;
+  height: 100%;
   right: 0;
   bottom: 0;
 }

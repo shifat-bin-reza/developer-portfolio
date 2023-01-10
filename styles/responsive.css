@@ -1,3 +1,5 @@
+/* Extra Large Device */
+
 @media screen and (min-width: 1401px) {
   body {
     width: 1240px;
@@ -5,7 +7,18 @@
   }
 }
 
+/* Large Device (width: 992px) */
+
 @media screen and (max-width: 992px) {
+  /* header section */
+  .btn-primary {
+    font-size: 12px;
+  }
+
+  .btn-secondary {
+    font-size: 12px;
+  }
+
   .header {
     background-position: bottom left, bottom, center;
   }
@@ -18,15 +31,111 @@
   .banner-left {
     width: 60%;
     text-align: center;
+    margin-top: 50px;
+  }
+
+  .banner-title {
+    font-size: 40px;
   }
 
   .banner-description {
-    width: 80%;
+    width: 100%;
     margin: 10px auto;
   }
 
   .banner-right {
     width: 50%;
     justify-content: center;
+    margin-top: 30px;
+  }
+
+  /* about section */
+
+  .main-description {
+    width: 100%;
+  }
+
+  .main-about-items ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main-about-items ul li {
+    margin: 10px 0;
+  }
+
+  /* skills section */
+  .skills-section {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .skills {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .nav-item-title {
+    display: none;
+  }
+
+  .menu-bar {
+    visibility: visible;
+  }
+}
+
+/* Medium Device (width: 768px) */
+
+@media screen and (max-width: 768px) {
+  nav {
+    margin: 0 45px 0 90px;
+  }
+
+  .skills-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 50%;
+    margin: 10px auto;
+  }
+}
+
+/* Small Device (width: 576px) */
+
+@media screen and (max-width: 576px) {
+  .nav-title {
+    font-size: 35px;
+  }
+
+  .banner-sub-title {
+    font-size: 25px;
+  }
+
+  .banner-title {
+    font-size: 30px;
+  }
+
+  .summery {
+    /* display: grid; */
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .main-about-items ul {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
