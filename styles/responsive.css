@@ -138,4 +138,10 @@
   .main-about-items ul {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .footer-left,
+  .footer-right {
+    width: 70%;
+    margin: 10px auto;
+  }
 }
