@@ -1,7 +1,9 @@
 * {
   margin: 0;
+  padding: 0;
   font-family: "Open Sans", sans-serif;
 }
+
 
 .text-primary {
   color: #fd6e0a;
@@ -18,11 +20,11 @@
 }
 
 .btn-primary i {
-    margin-right: 3px
+  margin-right: 3px;
 }
 
 .btn-secondary i {
-    margin-right: 2px
+  margin-right: 2px;
 }
 
 .btn-secondary {
@@ -51,9 +53,9 @@ header {
   background-image: url("../images/developer.png");
   background-color: #fff1e7;
   background-repeat: no-repeat, no-repeat;
-  background-position: bottom left 50px, bottom right;
-  background-size: 80px 100%, 51%;
-  padding: 10px;
+  background-position: bottom left 50px;
+  background-size: 100px 100%;
+  padding: 10px 10px 0 10px;
 }
 /* 700px 425px */
 nav {
@@ -101,7 +103,7 @@ nav li:hover:nth-child(-n + 2) a {
 }
 
 .banner-left {
-  width: 50%;
+  width: 40%;
 }
 
 .banner-sub-title {
@@ -123,12 +125,21 @@ nav li:hover:nth-child(-n + 2) a {
 }
 
 .banner-right {
-  width: 50%;
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100% 400px;
 }
 
 .banner-image {
-  width: 450px;
+  width: 480px;
   height: 550px;
+  /* left: 100px; */
+  right: 0;
+  bottom: 0;
 }
 
 /* main styles */
@@ -208,50 +219,50 @@ main {
   margin: auto;
 }
 
-.skills-section{
-    background-color: #faf6f4;
-    width: 80%;
-    margin: auto;
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
-    border-radius: 5px;
+.skills-section {
+  background-color: #faf6f4;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .skills {
-    background-color: white;
-    width: 25%;
-    margin: 0 20px;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 2px 2px rgb(212, 206, 206);
+  background-color: white;
+  width: 25%;
+  margin: 0 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px rgb(212, 206, 206);
 }
 
 .skills img {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
 .skills h5 {
-    text-align: center;
-    margin: 20px 0;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .skills p {
-    font-size: 14px;
-    color: #757575;
-    font-weight: 100;
-    line-height: 1.5rem;
-    text-align: center;
+  font-size: 14px;
+  color: #757575;
+  font-weight: 100;
+  line-height: 1.5rem;
+  text-align: center;
 }
 
 .skills:hover {
-    background-color: #fd7b1e;
+  background-color: #fd7b1e;
 }
 
-.skills:hover p{
-    color: black;
+.skills:hover p {
+  color: black;
 }
 
 .main-summery {
@@ -263,7 +274,8 @@ main {
   text-align: center;
 }
 
-.main-summery h3,h4 {
+.main-summery h3,
+h4 {
   text-align: left;
   margin-top: 10px;
 }
@@ -310,62 +322,63 @@ hr {
 
 /* footer styles */
 footer {
-    background-color: #fff1e7;
-    width: 100%;
-    display: flex;
-    margin-top: 100px;
-    padding: 20px;
+  background-color: #fff1e7;
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+  padding: 20px;
 }
 
 .footer-left {
-    width: 30%;
-    margin: auto 0 auto auto;
-    padding: 20px;
+  width: 30%;
+  margin: auto 0 auto auto;
+  padding: 20px;
 }
-.footer-left p{
-    font-size: 14px;
-    font-weight: 100;
-    color: #757575;
-    margin-top: 10px;
-    line-height: 1.3rem;
+.footer-left p {
+  font-size: 14px;
+  font-weight: 100;
+  color: #757575;
+  margin-top: 10px;
+  line-height: 1.3rem;
 }
 
-.footer-left i{
-    background-color: #fd6e0a;
-    font-size: 20px;
-    margin-right: 5px;
-    margin-top: 10px;
-    border-radius: 5px;
-    padding: 5px;
-    height: 20px;
-    width: 20px;
-    text-align: center;
-    color: white;
+.footer-left i {
+  background-color: #fd6e0a;
+  font-size: 20px;
+  margin-right: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  color: white;
 }
 
 .footer-left i:hover {
-    background-color: #fd7b1e;
-    color: white;
+  background-color: #fd7b1e;
+  color: white;
 }
 
 .footer-right {
-    width: 30%;
-    margin: auto auto auto 0;
+  width: 30%;
+  margin: auto auto auto 0;
 }
 
-.footer-right .input, textarea {
-    margin: 10px 0;
-    width: 300px;
-    padding: 10px;
-    border-radius: 5px;
-    border: none
+.footer-right .input,
+textarea {
+  margin: 10px 0;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
 }
 
 textarea {
-    border: none;
+  border: none;
 }
 
-.footer-right input, textarea:focus{
-    outline-color: #fd6e0a;
+.footer-right input,
+textarea:focus {
+  outline-color: #fd6e0a;
 }
-
