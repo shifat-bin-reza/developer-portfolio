@@ -1,33 +1,32 @@
-@media screen and (min-width: 1200px) {
-    body {
-        width: 1240px;
-    }    
+@media screen and (min-width: 1400px) {
+  body {
+    width: 1240px;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .header {
-        
-        background-position: bottom left, bottom, center;
-        /* background-size: 100px 100%, 620px; */
-    }
-    
-    .banner {
-        margin: 0 0 0 0px;
-        flex-direction: column;
-    }
+  .header {
+    background-position: bottom left, bottom, center;
+  }
 
-    .banner-left {
-        width: 60%;
-        text-align: center;
-    }
+  .banner {
+    margin: 0 0 0 0px;
+    flex-direction: column;
+  }
 
-    .banner-description {
-        width: 80%;
-        margin: 10px auto;
-    }
+  .banner-left {
+    width: 60%;
+    text-align: center;
+  }
 
-    .banner-right {
-        width: 50%;
-        justify-content: center;
-    }
+  .banner-description {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .banner-right {
+    width: 50%;
+    justify-content: center;
+  }
 }
