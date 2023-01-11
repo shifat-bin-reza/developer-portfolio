@@ -5,11 +5,23 @@
     width: 1240px;
     margin: auto;
   }
+
+  header {
+    background-size: 80px 100%;
+  }
+
+  .skills-section {
+    width: 100%;
+  }
 }
 
 /* Large Device (width: 992px) */
 
 @media screen and (max-width: 992px) {
+  header {
+    background-position: bottom left 30px;
+  }
+
   /* header section */
   .btn-primary {
     font-size: 12px;
@@ -17,10 +29,6 @@
 
   .btn-secondary {
     font-size: 12px;
-  }
-
-  .header {
-    background-position: bottom left, bottom, center;
   }
 
   .banner {
@@ -44,9 +52,15 @@
   }
 
   .banner-right {
-    width: 50%;
+    width: 75%;
+    background-position: bottom center;
     justify-content: center;
     margin-top: 30px;
+  }
+
+  .banner-image {
+    width: 75%;
+    height: 100%;
   }
 
   /* about section */
@@ -86,6 +100,32 @@
   .menu-bar {
     visibility: visible;
   }
+
+  /* skills */
+
+  .skills-section {
+    width: 80%;
+  }
+
+  .skills {
+    width: 75%;
+  }
+
+  /* footer */
+
+  footer {
+    padding: 10px;
+  }
+
+  .footer-left p {
+    line-height: 1.5rem;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: 40%;
+    margin: 10px auto;
+  }
 }
 
 /* Medium Device (width: 768px) */
@@ -108,8 +148,12 @@
 
   .footer-left,
   .footer-right {
-    width: 75%;
-    margin: 10px auto;
+    width: 60%;
+  }
+
+  .footer-right .input,
+  textarea {
+    width: 100%;
   }
 }
 
@@ -128,20 +172,34 @@
     font-size: 30px;
   }
 
+  /* skills section */
+
+  .skills-section {
+    width: 90%;
+  }
+
+  .skills {
+    width: 80%;
+  }
+
+  /* summery section */
+
   .summery {
     /* display: grid; */
     flex-direction: column;
+  }
+
+  /* footer */
+
+  .footer-left,
+  .footer-right {
+    width: 75%;
+    margin: 10px auto;
   }
 }
 
 @media screen and (max-width: 575px) {
   .main-about-items ul {
     grid-template-columns: repeat(1, 1fr);
-  }
-
-  .footer-left,
-  .footer-right {
-    width: 70%;
-    margin: 10px auto;
   }
 }

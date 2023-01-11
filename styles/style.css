@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -58,15 +59,16 @@ body {
 
 /* header and navigation styles */
 header {
-  width: 100%;
+  /* width: 100vw; */
+  background-color: red;
   background-image: url("../images/developer.png");
   background-color: #fff1e7;
   background-repeat: no-repeat, no-repeat;
   background-position: bottom left 50px;
   background-size: 6vw 100%;
-  padding: 10px 10px 0 10px;
+  padding: 10px 0px 0 10px;
 }
-/* 700px 425px */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -147,15 +149,13 @@ nav li:hover:nth-child(-n + 2) a {
   justify-content: flex-end;
   background-image: url("../images/header_bg.png");
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: bottom right;
   background-size: 100% 75%;
 }
 
 .banner-image {
   width: 75%;
   height: 100%;
-  right: 0;
-  bottom: 0;
 }
 
 /* main styles */
@@ -237,9 +237,8 @@ main {
 
 .skills-section {
   background-color: #faf6f4;
-  width: 80%;
-  margin: auto;
-  margin-top: 20px;
+  width: 90%;
+  margin: 20px auto;
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
@@ -347,7 +346,7 @@ footer {
 
 .footer-left {
   width: 30%;
-  margin: auto 0 auto auto;
+  margin: 0 0 auto auto;
   padding: 20px;
 }
 .footer-left p {
@@ -379,6 +378,7 @@ footer {
 .footer-right {
   width: 30%;
   margin: auto auto auto 0;
+  padding: 20px;
 }
 
 .footer-right .input,
