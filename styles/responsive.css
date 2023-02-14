@@ -1,11 +1,6 @@
 /* Extra Large Device */
 
 @media screen and (min-width: 1401px) {
-  body {
-    width: 1240px;
-    margin: auto;
-  }
-
   header {
     background-size: 80px 100%;
   }

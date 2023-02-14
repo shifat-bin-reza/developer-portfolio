@@ -60,7 +60,6 @@ body {
 /* header and navigation styles */
 header {
   /* width: 100vw; */
-  background-color: red;
   background-image: url("../images/developer.png");
   background-color: #fff1e7;
   background-repeat: no-repeat, no-repeat;
@@ -349,6 +348,7 @@ footer {
   margin: 0 0 auto auto;
   padding: 20px;
 }
+
 .footer-left p {
   font-size: 14px;
   font-weight: 100;
